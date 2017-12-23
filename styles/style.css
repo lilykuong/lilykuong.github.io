@@ -1,0 +1,92 @@
+  /**
+    Used only in the nav bar
+    */
+
+    .navbar {
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 2px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+
+    .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+    }
+
+/**
+  Skills section
+  */
+  .progress {
+    position: relative;
+    height: 25px;
+    max-width: 1000px;
+  }
+
+  .progress > .progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 800;
+    padding: 3px 30px 2px 10px;
+    color: rgb(0, 0, 0);
+  }
+
+  .progress > .progress-completed {
+    position: absolute;
+    right: 0px;
+    font-weight: 800;
+    padding: 3px 10px 2px;
+    color:black;
+  }
+
+  .progress-bar-css{
+    background-color:rgb(255, 255, 153) !important;
+  }
+
+  .progress-bar-human{
+    background-color: rgb(51, 208, 178) !important;
+  }
+
+
+  /**
+    Contact section
+  */
+
+  #contact{
+    background-color: white;
+    color:black;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top:50px;
+  }
+
+    #linkedin{
+      color:rgb(66, 133, 243);
+      background-color: white;
+      font-size: 50px;
+    }
+
+    #github{
+      background-color: white; 
+      font-size: 50px;
+    }
+
+    /**
+      General
+    */
+
+    p{
+      margin-bottom: 0px; 
+      padding-bottom: 10px;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+      /**
+      Body background changed to gray and makes text white
+      */
+      body{
+        background-color:rgb(112, 114, 115);
+        color:white;
+      }

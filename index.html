@@ -12,15 +12,15 @@
     <script src="scripts/jquery.min.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
 
+    <!-- Font Awesome -->
+    <script src="scripts/fontawesome.js"></script>
+    
     <!-- Page Style-->
     <link rel="stylesheet" type="text/css" href = "styles/style.css">
 
     <!-- Google font -->
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Inconsolata|Merriweather|Open+Sans|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/font.css">
 
-    <!-- Font Awesome -->
-    <script src="scripts/fontawesome.js"></script>
-    
 </head>
 <body>
     <!--Nav Bar -->
@@ -36,7 +36,7 @@
                 </button>
                 <a class="navbar-brand" href="#">LILY KUONG</a>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
+            <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
@@ -53,17 +53,17 @@
         <div class="title-content">
             <h1 class="hello-heading">{Hello World!}</h1> 
             <h2 class="lily-title">I am Lily Kuong</h2>
-            <h4 class="engineer-title">Software Engineer. Electrical Engineer. Corgi Lover.*</h4>
+            <p class="engineer-title">Software Engineer. Electrical Engineer. Corgi Lover.*</p>
             <p class="smallfont">*In no particular order</p>
         </div>
     </div>
 
     <!--Info-->
     <div id="about" class="container-fluid content-size">
-        <h3 class="h3heading">About Me</h3>
+        <h3>About Me</h3>
         <img class="corgi text-wrap-left" src="images/corgi.jpg">
 
-        <h4 class="h4heading">tl;dr</h4>
+        <h4>tl;dr</h4>
         <div class="about-text">
             <p>I am a part-time MS student studying CS at USC and working full-time as a Hardware Engineer at BAE Systems.</p>
 
@@ -76,13 +76,13 @@
             <p>And if you haven't guessed already, I love Corgis.</p>
         </div>
         
-        <h4 class="h4heading">Fun Fact</h4>
+        <h4>Fun Fact</h4>
         <p id="fun-fact">In college, I was the president, vice president, tresurer, secretary, events coordinator, and a mentor for several different organizations.</p>
     </div>
 
     <!-- Skills -->
     <div id="skills" class="container-fluid content-size">
-        <h3 class="h3heading"> What I'm Great At </h3>
+        <h3> What I'm Great At </h3>
 
         <div class="row">                   
             <div class="progress">
@@ -121,15 +121,15 @@
                 <span class="progress-completed">10%</span>
             </div>
             <div class="progress">
-                <div class="progress-bar progress-bar-skill6" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                <div class="progress-bar progress-bar-yellow" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
                     <span class="sr-only">20% Complete</span>
                 </div>
                 <span class="progress-type">CSS / CSS3</span>
                 <span class="progress-completed">20%</span>
             </div>
             <div class="progress">
-                <div class="progress-bar progress-bar-skill7" role="progressbar"aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
-                    <span class="sr-only">95% Complete</span>
+                <div class="progress-bar progress-bar-teal" role="progressbar"aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                    <span class="sr-only">100% Complete</span>
                 </div>
                 <span class="progress-type">Getting things done!</span>
                 <span class="progress-completed">100%</span>
@@ -139,39 +139,39 @@
 
     <!-- Projects -->
     <div id="projects" class="container-fluid projects content-size">
-        <h3 class="h3heading">What I've Worked On</h3>
+        <h3>What I've Worked On</h3>
 
-        <h4 class="h4heading">Scrabble Anagrams</h4>
+        <h4>Scrabble Anagrams</h4>
         <p>Created a Java program that allows a user to figure out what words can be formed with the currect letters they have in their rack.</p>
 
-        <h4 class="h4heading">Maze Solver</h4>
+        <h4>Maze Solver</h4>
         <p>Created a Java program that allows a user to enter the layout of a maze and its start and end location and the program will solve the maze and display it. </p>
         <p>Hover over the image below to see the solution to the maze! </p>
         <img class="maze" src="images/maze.gif">
 
-        <h4 class="h4heading">Twitter Replica</h4>
+        <h4>Twitter Replica</h4>
         <p>Developed a C++ program that replicates Twitter. User will send their Tweets to their Followers. The Followers can respond to the message and the response will be sent back to the User.</p>
 
-        <h4 class="h4heading">Robotics Capture the Flag</h4>
+        <h4>Robotics Capture the Flag</h4>
         <p> Designed an autonomous robot to compete in a game of capture the flag. The robot communicates with the beacon towers in the field and claims it by sending a proper code within a certain window to the beacon tower. When time ends, the robot with the most towers claimed wins. Used C for the software.</p>
 
-        <h4 class="h4heading">Maze Solver Robot</h4>
+        <h4>Maze Solver Robot</h4>
         <p>Designed a robot to be able to solve a maze autonomously. Used C for the software.</p>
 
     </div>
 
     <!-- Contact -->
-    <div id="contact" class="container-fluid">
+    <div id="contact" class="contact container-fluid">
 
         <div class="container">
 
                 <h3 class="connect">Let's Get Connected!</h3>
 
-                <a href="https://www.linkedin.com/in/lily-kuong/"><i id="linkedin"class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/lily-kuong/"><i class="fa fa-linkedin-square"></i></a>
 
-                <a href="https://github.com/lilykuong/"><i id="github" class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://github.com/lilykuong/"><i class="fa fa-github" aria-hidden="true"></i></a>
 
-                <p class="connect"> Want to chat? Send me an <a href="mailto:lkuong@usc.edu">email!</a></p>
+                <p> Want to chat? Send me an <a href="mailto:lkuong@usc.edu">email!</a></p>
         </div>
     </div>
 

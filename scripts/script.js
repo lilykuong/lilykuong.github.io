@@ -1,4 +1,4 @@
-//Change Fun Facts to a different fact with a set interval
+/* Change Fun Facts to a different fact with a set interval */
 (function(){
     const FACT_CHANGE_INTERVAL = 7000;
     const FACT_ID = "fun-fact";

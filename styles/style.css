@@ -132,16 +132,14 @@
     padding-top:50px;
 }
 
-.fa {
+#icon-github {
+    color: black;
     font-size: 50px;
 }
 
-.fa-github {
-    color: black;
-}
-
-.fa-linkedin {
+#icon-linkedin {
     color: #0077B5;
+    font-size: 50px;
 }
 
 /*

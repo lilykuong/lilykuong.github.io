@@ -1,0 +1,260 @@
+/*
+    Used only in the nav bar
+*/
+.navbar {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+/*
+    Header/Title Section
+*/
+.title {
+    background-image: url("../images/website-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: black;
+
+    padding-top: 20%;
+    padding-bottom: 20%;
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+.title-content {
+    background-color: #00000088; 
+    width: 60%;
+    max-width: 500px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    margin: auto;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*
+    About section
+*/
+.about-text {
+    text-align: left; 
+    width: 100%;
+    max-width: 1000px;
+}
+
+.corgi {
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+}
+
+#fun-fact {
+    width:100%;
+    height:100px;
+    max-width: 1000px;
+}
+
+/*
+  Skills section
+*/
+.progress {
+    position: relative;
+    height: 25px;
+    max-width: 1000px;
+}
+
+.progress > .progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 800;
+    padding: 3px 30px 2px 10px;
+    color: #000;
+}
+
+.progress > .progress-completed {
+    position: absolute;
+    right: 0px;
+    font-weight: 800;
+    padding: 3px 10px 2px;
+    color:black;
+}
+
+.progress-bar-yellow {
+    background-color: #ffff99;
+}
+
+.progress-bar-teal {
+    background-color: #33d0b2;
+}
+
+/*
+    Projects
+*/
+.maze {
+    width: 75%;
+    height: auto;
+
+    display: block;
+    margin: 0  auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.projects {
+    text-align: left;
+    vertical-align: top;
+    padding-bottom: 50px;
+}
+
+/*
+    Contact section
+*/
+.connect{
+    color: black;
+}
+
+.contact {
+    background-color: white;
+    color:black;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top:50px;
+}
+
+#icon-github {
+    color: black;
+    font-size: 50px;
+}
+
+#icon-linkedin {
+    color: #0077B5;
+    font-size: 50px;
+}
+
+/*
+    General
+*/
+p {
+    margin-bottom: 0px; 
+    padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #707273;
+    color: white;
+}
+
+.content-size {
+    padding-top: 50px;
+    width: 80%;
+    max-width: 700px;
+}
+
+h3 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    color: #faf3dc;
+    font-size: 30px;
+}
+
+h4 {
+    font-family: 'Merriweather', serif;
+    padding-top: 14px;
+    color: #dcf5fa;
+}
+
+/*
+    Changes based on width of window
+*/
+@media(max-width: 800px){ 
+    .engineer-title {
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        margin-bottom: 0px; 
+        padding-top: 0px;
+        padding-bottom: 4px;
+        font-size: 2vw;
+    }
+}
+
+@media(min-width: 801px){
+    .engineer-title {
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        margin-bottom: 0px; 
+        padding-top: 0px;
+        padding-bottom: 4px;
+        font-size:18px;
+    }
+}
+
+@media(max-width: 600px){
+    .text-wrap-left {
+        margin: 0 25%;
+    }
+}
+
+@media(max-width: 400px){  
+    .smallfont {
+        font-size: 8px;
+    }
+
+    .hello-heading {
+        font-family: 'Inconsolata', monospace;
+        color: #ff8c00;
+        font-size: 20px;
+    }
+
+    .lily-title {
+        font-size: 15px;
+    }
+}
+
+@media(min-width: 401px) and (max-width: 600px){
+    .smallfont {
+        font-size: 11px;
+    }
+
+    .hello-heading {
+        font-family: 'Inconsolata', monospace;
+        color: #ff8c00;
+        font-size: 30px;
+    }
+}
+
+@media(min-width: 401px){
+    .lily-title {
+        font-size: 25px;
+    }
+}
+
+@media(min-width: 601px) {  
+    .text-wrap-left {
+        float:left;
+        margin: 0px 15px 15px 0px;
+        padding-top: 30px;
+    }
+
+    .smallfont {
+        font-size: 13px;
+    }
+
+    .hello-heading {
+        font-family: 'Inconsolata', monospace;
+        color: #ff8c00;
+        font-size: 40px;
+    }
+}
+
